@@ -12,6 +12,7 @@
 		C15C4C242B235EA900DFA37F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C4C232B235EA900DFA37F /* Item.swift */; };
 		C15C4C262B235EAB00DFA37F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15C4C252B235EAB00DFA37F /* Assets.xcassets */; };
 		C15C4C292B235EAB00DFA37F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15C4C282B235EAB00DFA37F /* Preview Assets.xcassets */; };
+		C17C40692B23692D00CCCBAB /* OnBoardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17C40682B23692D00CCCBAB /* OnBoardingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C15C4C232B235EA900DFA37F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		C15C4C252B235EAB00DFA37F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C15C4C282B235EAB00DFA37F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C17C40682B23692D00CCCBAB /* OnBoardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				C15C4C1F2B235EA900DFA37F /* PearlBeautyApp.swift */,
+				C17C40672B23691F00CCCBAB /* Models */,
 				C15C4C212B235EA900DFA37F /* ContentView.swift */,
 				C15C4C232B235EA900DFA37F /* Item.swift */,
 				C15C4C252B235EAB00DFA37F /* Assets.xcassets */,
@@ -68,6 +71,14 @@
 				C15C4C282B235EAB00DFA37F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C17C40672B23691F00CCCBAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C17C40682B23692D00CCCBAB /* OnBoardingModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17C40692B23692D00CCCBAB /* OnBoardingModel.swift in Sources */,
 				C15C4C222B235EA900DFA37F /* ContentView.swift in Sources */,
 				C15C4C242B235EA900DFA37F /* Item.swift in Sources */,
 				C15C4C202B235EA900DFA37F /* PearlBeautyApp.swift in Sources */,
