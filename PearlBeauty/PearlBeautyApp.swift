@@ -22,7 +22,7 @@ struct PearlBeautyApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
-
+//aa
     var body: some Scene {
         WindowGroup {
             ContentView()
